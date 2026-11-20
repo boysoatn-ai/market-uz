@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Generate
         env:
-          XI: ${{ secrets.ELEVENLABS_API_KEY }}
+          XI: ${{ secrets.ELEVENLABS_API_KEY || secrets.SLAYDOL }}
         run: python3 tts/run.py
       - name: Publish to tts-out branch
         run: |
