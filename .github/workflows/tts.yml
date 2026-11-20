@@ -3,6 +3,8 @@ on:
   push:
     paths: ["tts/job.json"]
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   tts:
     runs-on: ubuntu-latest
@@ -12,8 +14,13 @@ jobs:
         env:
           XI: ${{ secrets.ELEVENLABS_API_KEY }}
         run: python3 tts/run.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: tts-out
-          path: tts/out/
-          retention-days: 7
+      - name: Publish to tts-out branch
+        run: |
+          SHA=$(git rev-parse --short HEAD)
+          mkdir -p /tmp/o && cp -r tts/out/. /tmp/o/
+          git config user.name tts-bot && git config user.email tts-bot@users.noreply.github.com
+          git fetch origin tts-out || true
+          git checkout --orphan tts-tmp && git rm -rfq . && git clean -fdq
+          mkdir -p "$SHA" && cp -r /tmp/o/. "$SHA/"
+          if git rev-parse --verify origin/tts-out >/dev/null 2>&1; then git checkout origin/tts-out -- . 2>/dev/null || true; fi
+          git add -A && git commit -qm "tts $SHA" && git push -f origin HEAD:tts-out
