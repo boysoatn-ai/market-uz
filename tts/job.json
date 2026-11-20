@@ -2,101 +2,137 @@
  "list_voices": false,
  "items": [
   {
-   "name": "dm_seg1",
+   "name": "d4_seg1",
    "voice": "agoC45V78njTIxYzwmSb",
-   "text": "Bu taqdimotlarning hammasini... bot yasadi!",
-   "model": "eleven_multilingual_v2",
+   "text": "[excited] Bu taqdimotlarning hammasini... bot yasadi!",
+   "model": "eleven_v4",
    "settings": {
-    "stability": 0.3,
+    "stability": 0.5,
     "similarity_boost": 0.85,
-    "style": 0.6,
     "use_speaker_boost": true
    }
   },
   {
-   "name": "dm_seg2",
+   "name": "d4_seg2",
    "voice": "agoC45V78njTIxYzwmSb",
-   "text": "Siz esa — faqat mavzuni yozasiz.",
-   "model": "eleven_multilingual_v2",
+   "text": "[confident] Siz esa — faqat mavzuni yozasiz.",
+   "model": "eleven_v4",
    "settings": {
-    "stability": 0.3,
+    "stability": 0.5,
     "similarity_boost": 0.85,
-    "style": 0.6,
     "use_speaker_boost": true
    }
   },
   {
-   "name": "dm_seg3",
+   "name": "d4_seg3",
    "voice": "agoC45V78njTIxYzwmSb",
-   "text": "Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
-   "model": "eleven_multilingual_v2",
+   "text": "[enthusiastic] Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
+   "model": "eleven_v4",
    "settings": {
-    "stability": 0.3,
+    "stability": 0.5,
     "similarity_boost": 0.85,
-    "style": 0.6,
     "use_speaker_boost": true
    }
   },
   {
-   "name": "dm_seg4",
+   "name": "d4_seg4",
    "voice": "agoC45V78njTIxYzwmSb",
-   "text": "Telegramda Slayd Ol! Hoziroq sinab ko'ring!",
-   "model": "eleven_multilingual_v2",
+   "text": "[excited] Telegramda Slayd Ol! Hoziroq sinab ko'ring!",
+   "model": "eleven_v4",
    "settings": {
-    "stability": 0.3,
+    "stability": 0.5,
     "similarity_boost": 0.85,
-    "style": 0.6,
     "use_speaker_boost": true
    }
   },
   {
-   "name": "am_seg1",
+   "name": "a4_seg1",
    "voice": "fytsqG6MLzC2aCSw7MLa",
-   "text": "Bu taqdimotlarning hammasini... bot yasadi!",
-   "model": "eleven_multilingual_v2",
+   "text": "[excited] Bu taqdimotlarning hammasini... bot yasadi!",
+   "model": "eleven_v4",
    "settings": {
-    "stability": 0.3,
+    "stability": 0.5,
     "similarity_boost": 0.85,
-    "style": 0.6,
     "use_speaker_boost": true
    }
   },
   {
-   "name": "am_seg2",
+   "name": "a4_seg2",
    "voice": "fytsqG6MLzC2aCSw7MLa",
-   "text": "Siz esa — faqat mavzuni yozasiz.",
-   "model": "eleven_multilingual_v2",
+   "text": "[confident] Siz esa — faqat mavzuni yozasiz.",
+   "model": "eleven_v4",
    "settings": {
-    "stability": 0.3,
+    "stability": 0.5,
     "similarity_boost": 0.85,
-    "style": 0.6,
     "use_speaker_boost": true
    }
   },
   {
-   "name": "am_seg3",
+   "name": "a4_seg3",
    "voice": "fytsqG6MLzC2aCSw7MLa",
-   "text": "Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
-   "model": "eleven_multilingual_v2",
+   "text": "[enthusiastic] Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
+   "model": "eleven_v4",
    "settings": {
-    "stability": 0.3,
+    "stability": 0.5,
     "similarity_boost": 0.85,
-    "style": 0.6,
     "use_speaker_boost": true
    }
   },
   {
-   "name": "am_seg4",
+   "name": "a4_seg4",
    "voice": "fytsqG6MLzC2aCSw7MLa",
-   "text": "Telegramda Slayd Ol! Hoziroq sinab ko'ring!",
-   "model": "eleven_multilingual_v2",
+   "text": "[excited] Telegramda Slayd Ol! Hoziroq sinab ko'ring!",
+   "model": "eleven_v4",
    "settings": {
-    "stability": 0.3,
+    "stability": 0.5,
     "similarity_boost": 0.85,
-    "style": 0.6,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "u4_seg1",
+   "voice": "YcZ6UdsxsHFsx1t71CSF",
+   "text": "[excited] Bu taqdimotlarning hammasini... bot yasadi!",
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.85,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "u4_seg2",
+   "voice": "YcZ6UdsxsHFsx1t71CSF",
+   "text": "[confident] Siz esa — faqat mavzuni yozasiz.",
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.85,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "u4_seg3",
+   "voice": "YcZ6UdsxsHFsx1t71CSF",
+   "text": "[enthusiastic] Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.85,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "u4_seg4",
+   "voice": "YcZ6UdsxsHFsx1t71CSF",
+   "text": "[excited] Telegramda Slayd Ol! Hoziroq sinab ko'ring!",
+   "model": "eleven_v4",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.85,
     "use_speaker_boost": true
    }
   }
  ],
- "n": 5
+ "n": 6
 }
