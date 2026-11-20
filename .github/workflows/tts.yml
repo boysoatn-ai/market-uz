@@ -1,0 +1,19 @@
+name: tts
+on:
+  push:
+    paths: ["tts/job.json"]
+  workflow_dispatch:
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate
+        env:
+          XI: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 tts/run.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tts-out
+          path: tts/out/
+          retention-days: 7
