@@ -1,1 +1,182 @@
-{"list_voices": true, "items": [], "n": 3}
+{
+ "list_voices": false,
+ "items": [
+  {
+   "name": "v1_seg1",
+   "voice": "agoC45V78njTIxYzwmSb",
+   "text": "[excited] Bu taqdimotlarning hammasini... bot yasadi!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v1_seg2",
+   "voice": "agoC45V78njTIxYzwmSb",
+   "text": "[confident] Siz esa faqat mavzuni yozasiz.",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v1_seg3",
+   "voice": "agoC45V78njTIxYzwmSb",
+   "text": "[enthusiastic] Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v1_seg4",
+   "voice": "agoC45V78njTIxYzwmSb",
+   "text": "[excited] Telegramda Slayd Ol — hoziroq sinab ko'ring!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v2_seg1",
+   "voice": "6E5bD4DA4m84D9QcO1f2",
+   "text": "[excited] Bu taqdimotlarning hammasini... bot yasadi!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v2_seg2",
+   "voice": "6E5bD4DA4m84D9QcO1f2",
+   "text": "[confident] Siz esa faqat mavzuni yozasiz.",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v2_seg3",
+   "voice": "6E5bD4DA4m84D9QcO1f2",
+   "text": "[enthusiastic] Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v2_seg4",
+   "voice": "6E5bD4DA4m84D9QcO1f2",
+   "text": "[excited] Telegramda Slayd Ol — hoziroq sinab ko'ring!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v3_seg1",
+   "voice": "fytsqG6MLzC2aCSw7MLa",
+   "text": "[excited] Bu taqdimotlarning hammasini... bot yasadi!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v3_seg2",
+   "voice": "fytsqG6MLzC2aCSw7MLa",
+   "text": "[confident] Siz esa faqat mavzuni yozasiz.",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v3_seg3",
+   "voice": "fytsqG6MLzC2aCSw7MLa",
+   "text": "[enthusiastic] Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v3_seg4",
+   "voice": "fytsqG6MLzC2aCSw7MLa",
+   "text": "[excited] Telegramda Slayd Ol — hoziroq sinab ko'ring!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v4_seg1",
+   "voice": "YcZ6UdsxsHFsx1t71CSF",
+   "text": "[excited] Bu taqdimotlarning hammasini... bot yasadi!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v4_seg2",
+   "voice": "YcZ6UdsxsHFsx1t71CSF",
+   "text": "[confident] Siz esa faqat mavzuni yozasiz.",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v4_seg3",
+   "voice": "YcZ6UdsxsHFsx1t71CSF",
+   "text": "[enthusiastic] Rasmli, rejali, chiroyli! PowerPoint va PDF'da — tayyor!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "v4_seg4",
+   "voice": "YcZ6UdsxsHFsx1t71CSF",
+   "text": "[excited] Telegramda Slayd Ol — hoziroq sinab ko'ring!",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.0,
+    "similarity_boost": 0.8,
+    "use_speaker_boost": true
+   }
+  }
+ ],
+ "n": 4
+}
