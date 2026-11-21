@@ -1,0 +1,12 @@
+ok d4_seg1
+ok d4_seg2
+ok d4_seg3
+ok d4_seg4
+ok a4_seg1
+ok a4_seg2
+ok a4_seg3
+ok a4_seg4
+ok u4_seg1
+ok u4_seg2
+ok u4_seg3
+ok u4_seg4

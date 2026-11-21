@@ -1,0 +1,16 @@
+ok v1_seg1
+ok v1_seg2
+ok v1_seg3
+ok v1_seg4
+ERR v2_seg1 400 b'{"detail":{"type":"invalid_request","code":"bad_request","message":"Voice \'6E5bD4DA4m84D9QcO1f2\' is not fine-tuned and cannot be used.","status":"voice_not_fine_tuned","request_id":"1438ba0038adf023e545d25756e34f72"}}'
+ERR v2_seg2 400 b'{"detail":{"type":"invalid_request","code":"bad_request","message":"Voice \'6E5bD4DA4m84D9QcO1f2\' is not fine-tuned and cannot be used.","status":"voice_not_fine_tuned","request_id":"956d850e3e62d348ef661e78e66b80a3"}}'
+ERR v2_seg3 400 b'{"detail":{"type":"invalid_request","code":"bad_request","message":"Voice \'6E5bD4DA4m84D9QcO1f2\' is not fine-tuned and cannot be used.","status":"voice_not_fine_tuned","request_id":"a2e5ab8b985d90d2621e81e2f52ee06f"}}'
+ERR v2_seg4 400 b'{"detail":{"type":"invalid_request","code":"bad_request","message":"Voice \'6E5bD4DA4m84D9QcO1f2\' is not fine-tuned and cannot be used.","status":"voice_not_fine_tuned","request_id":"dfffcaa3b4bba33a07a2393a782205dd"}}'
+ok v3_seg1
+ok v3_seg2
+ok v3_seg3
+ok v3_seg4
+ok v4_seg1
+ok v4_seg2
+ok v4_seg3
+ok v4_seg4

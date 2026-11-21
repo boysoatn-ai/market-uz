@@ -1,0 +1,8 @@
+ok dm_seg1
+ok dm_seg2
+ok dm_seg3
+ok dm_seg4
+ok am_seg1
+ok am_seg2
+ok am_seg3
+ok am_seg4
